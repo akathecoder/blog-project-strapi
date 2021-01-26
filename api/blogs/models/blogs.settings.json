@@ -31,6 +31,19 @@
     },
     "authors": {
       "model": "authors"
+    },
+    "Tagline": {
+      "type": "text"
+    },
+    "Likes": {
+      "type": "integer",
+      "min": 0,
+      "default": 0
+    },
+    "tags": {
+      "collection": "tags",
+      "via": "blogs",
+      "dominant": true
     }
   }
 }
